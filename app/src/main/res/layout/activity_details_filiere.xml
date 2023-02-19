@@ -1,0 +1,32 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:src="@mipmap/img_gasa"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/id_nom_detail"
+        android:layout_width="match_parent"
+        android:paddingTop="20sp"
+        android:layout_margin="10sp"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/id_description_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:layout_margin="5sp"
+        />
+
+
+
+</LinearLayout>

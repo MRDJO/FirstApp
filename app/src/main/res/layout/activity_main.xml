@@ -1,0 +1,31 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <TextView
+        android:id="@+id/zone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginBottom="2dp"
+        android:text="Bonjour"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0000ff"
+        />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changer"
+        android:background="#ff0000"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+
+</LinearLayout>

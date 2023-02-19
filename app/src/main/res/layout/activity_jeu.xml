@@ -1,0 +1,69 @@
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <TextView
+            android:id="@+id/tv_nbr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="0"
+            android:layout_weight="1"
+            />
+        <LinearLayout
+            android:id="@+id/lay_touch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Image_joueur"
+                    android:layout_width="190sp"
+                    android:layout_height="190sp"
+                    android:src="@mipmap/pngtree"
+                    android:scaleType="centerCrop"
+                    />
+                <ImageView
+                    android:id="@+id/Image_jouertwo"
+                    android:layout_width="190sp"
+                    android:layout_height="190sp"
+                    android:src="@mipmap/pngtree"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Image_jouerthree"
+                    android:layout_width="190sp"
+                    android:layout_height="190sp"
+                    android:src="@mipmap/pngtree"
+                    android:scaleType="centerCrop"
+                    />
+                <ImageView
+                    android:id="@+id/Image_jouerfour"
+                    android:layout_width="190sp"
+                    android:layout_height="190sp"
+                    android:src="@mipmap/pngtree"
+                    android:scaleType="centerCrop"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_generer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Générer"
+        />
+</LinearLayout>
